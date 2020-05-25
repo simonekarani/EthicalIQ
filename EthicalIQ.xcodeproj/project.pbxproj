@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C4DDEC5247903CA007E1878 /* MoralDilemmaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4DDEC4247903CA007E1878 /* MoralDilemmaController.swift */; };
+		2C4DDEC72479C6E3007E1878 /* MoralDilemmaResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4DDEC62479C6E3007E1878 /* MoralDilemmaResultsController.swift */; };
+		2C4DDEC9247A450C007E1878 /* MoralDilemmaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4DDEC8247A450C007E1878 /* MoralDilemmaData.swift */; };
+		2C5D833724662A21007F9355 /* MoralMachineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D833624662A21007F9355 /* MoralMachineData.swift */; };
+		2C5D833924674423007F9355 /* MoralMachineResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D833824674423007F9355 /* MoralMachineResultsController.swift */; };
+		2C5D833B246745BC007F9355 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D833A246745BC007F9355 /* RoundButton.swift */; };
+		2C7719AC245D1FFB0017969C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7719AB245D1FFB0017969C /* AppDelegate.swift */; };
+		2C7719B1245D1FFB0017969C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7719AF245D1FFB0017969C /* Main.storyboard */; };
+		2C7719B4245D1FFB0017969C /* EthicalIQ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C7719B2245D1FFB0017969C /* EthicalIQ.xcdatamodeld */; };
+		2C7719B6245D1FFD0017969C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7719B5245D1FFD0017969C /* Assets.xcassets */; };
+		2C7719B9245D1FFD0017969C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7719B7245D1FFD0017969C /* LaunchScreen.storyboard */; };
+		2C7719C4245D3DCA0017969C /* MainScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7719C3245D3DCA0017969C /* MainScreenController.swift */; };
+		2C7719C6245D406D0017969C /* MainScreenCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7719C5245D406D0017969C /* MainScreenCollectionCell.swift */; };
+		2C7719C8245EC3AA0017969C /* MoralMachineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7719C7245EC3AA0017969C /* MoralMachineController.swift */; };
+		A0BD7E52CD37CAECEA1C889A /* Pods_EthicalIQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F4510A40A19D8A874721AE /* Pods_EthicalIQ.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C4DDEC4247903CA007E1878 /* MoralDilemmaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoralDilemmaController.swift; sourceTree = "<group>"; };
+		2C4DDEC62479C6E3007E1878 /* MoralDilemmaResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoralDilemmaResultsController.swift; sourceTree = "<group>"; };
+		2C4DDEC8247A450C007E1878 /* MoralDilemmaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoralDilemmaData.swift; sourceTree = "<group>"; };
+		2C5D833624662A21007F9355 /* MoralMachineData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoralMachineData.swift; sourceTree = "<group>"; };
+		2C5D833824674423007F9355 /* MoralMachineResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoralMachineResultsController.swift; sourceTree = "<group>"; };
+		2C5D833A246745BC007F9355 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		2C7719A8245D1FFB0017969C /* EthicalIQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EthicalIQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7719AB245D1FFB0017969C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C7719B0245D1FFB0017969C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C7719B3245D1FFB0017969C /* EthicalIQ.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EthicalIQ.xcdatamodel; sourceTree = "<group>"; };
+		2C7719B5245D1FFD0017969C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C7719B8245D1FFD0017969C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C7719BA245D1FFD0017969C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C7719C3245D3DCA0017969C /* MainScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenController.swift; sourceTree = "<group>"; };
+		2C7719C5245D406D0017969C /* MainScreenCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenCollectionCell.swift; sourceTree = "<group>"; };
+		2C7719C7245EC3AA0017969C /* MoralMachineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoralMachineController.swift; sourceTree = "<group>"; };
+		3542E78AFDB8CDE2ABB88705 /* Pods-EthicalIQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthicalIQ.release.xcconfig"; path = "Target Support Files/Pods-EthicalIQ/Pods-EthicalIQ.release.xcconfig"; sourceTree = "<group>"; };
+		50F4510A40A19D8A874721AE /* Pods_EthicalIQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EthicalIQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFCF7026F74DA7B69E9C921 /* Pods-EthicalIQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthicalIQ.debug.xcconfig"; path = "Target Support Files/Pods-EthicalIQ/Pods-EthicalIQ.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C7719A5245D1FFB0017969C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BD7E52CD37CAECEA1C889A /* Pods_EthicalIQ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C77199F245D1FFB0017969C = {
+			isa = PBXGroup;
+			children = (
+				2C7719AA245D1FFB0017969C /* EthicalIQ */,
+				2C7719A9245D1FFB0017969C /* Products */,
+				F4D3C7696A56A9EF9358C3A2 /* Pods */,
+				C4049CDB9CADFDDE0F2FBCF8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C7719A9245D1FFB0017969C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C7719A8245D1FFB0017969C /* EthicalIQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C7719AA245D1FFB0017969C /* EthicalIQ */ = {
+			isa = PBXGroup;
+			children = (
+				2C7719C2245D39240017969C /* View */,
+				2C7719C1245D39160017969C /* Model */,
+				2C7719C0245D39050017969C /* Controller */,
+				2C7719AB245D1FFB0017969C /* AppDelegate.swift */,
+				2C7719AF245D1FFB0017969C /* Main.storyboard */,
+				2C7719B5245D1FFD0017969C /* Assets.xcassets */,
+				2C7719B7245D1FFD0017969C /* LaunchScreen.storyboard */,
+				2C7719BA245D1FFD0017969C /* Info.plist */,
+				2C7719B2245D1FFB0017969C /* EthicalIQ.xcdatamodeld */,
+			);
+			path = EthicalIQ;
+			sourceTree = "<group>";
+		};
+		2C7719C0245D39050017969C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C7719C7245EC3AA0017969C /* MoralMachineController.swift */,
+				2C7719C3245D3DCA0017969C /* MainScreenController.swift */,
+				2C7719C5245D406D0017969C /* MainScreenCollectionCell.swift */,
+				2C5D833824674423007F9355 /* MoralMachineResultsController.swift */,
+				2C4DDEC4247903CA007E1878 /* MoralDilemmaController.swift */,
+				2C4DDEC62479C6E3007E1878 /* MoralDilemmaResultsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C7719C1245D39160017969C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C5D833624662A21007F9355 /* MoralMachineData.swift */,
+				2C5D833A246745BC007F9355 /* RoundButton.swift */,
+				2C4DDEC8247A450C007E1878 /* MoralDilemmaData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C7719C2245D39240017969C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4049CDB9CADFDDE0F2FBCF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50F4510A40A19D8A874721AE /* Pods_EthicalIQ.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4D3C7696A56A9EF9358C3A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BFCF7026F74DA7B69E9C921 /* Pods-EthicalIQ.debug.xcconfig */,
+				3542E78AFDB8CDE2ABB88705 /* Pods-EthicalIQ.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C7719A7245D1FFB0017969C /* EthicalIQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C7719BD245D1FFD0017969C /* Build configuration list for PBXNativeTarget "EthicalIQ" */;
+			buildPhases = (
+				BECF89B607626B3DE46A5D65 /* [CP] Check Pods Manifest.lock */,
+				2C7719A4245D1FFB0017969C /* Sources */,
+				2C7719A5245D1FFB0017969C /* Frameworks */,
+				2C7719A6245D1FFB0017969C /* Resources */,
+				B54197341990904112E82B14 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EthicalIQ;
+			productName = EthicalIQ;
+			productReference = 2C7719A8245D1FFB0017969C /* EthicalIQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C7719A0245D1FFB0017969C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = EthicalIQ;
+				TargetAttributes = {
+					2C7719A7245D1FFB0017969C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 2C7719A3245D1FFB0017969C /* Build configuration list for PBXProject "EthicalIQ" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C77199F245D1FFB0017969C;
+			productRefGroup = 2C7719A9245D1FFB0017969C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C7719A7245D1FFB0017969C /* EthicalIQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C7719A6245D1FFB0017969C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7719B9245D1FFD0017969C /* LaunchScreen.storyboard in Resources */,
+				2C7719B6245D1FFD0017969C /* Assets.xcassets in Resources */,
+				2C7719B1245D1FFB0017969C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B54197341990904112E82B14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EthicalIQ/Pods-EthicalIQ-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EthicalIQ/Pods-EthicalIQ-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EthicalIQ/Pods-EthicalIQ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BECF89B607626B3DE46A5D65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EthicalIQ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C7719A4245D1FFB0017969C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5D833B246745BC007F9355 /* RoundButton.swift in Sources */,
+				2C4DDEC5247903CA007E1878 /* MoralDilemmaController.swift in Sources */,
+				2C7719B4245D1FFB0017969C /* EthicalIQ.xcdatamodeld in Sources */,
+				2C5D833724662A21007F9355 /* MoralMachineData.swift in Sources */,
+				2C4DDEC72479C6E3007E1878 /* MoralDilemmaResultsController.swift in Sources */,
+				2C4DDEC9247A450C007E1878 /* MoralDilemmaData.swift in Sources */,
+				2C7719C6245D406D0017969C /* MainScreenCollectionCell.swift in Sources */,
+				2C7719C4245D3DCA0017969C /* MainScreenController.swift in Sources */,
+				2C7719C8245EC3AA0017969C /* MoralMachineController.swift in Sources */,
+				2C5D833924674423007F9355 /* MoralMachineResultsController.swift in Sources */,
+				2C7719AC245D1FFB0017969C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C7719AF245D1FFB0017969C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C7719B0245D1FFB0017969C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C7719B7245D1FFD0017969C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C7719B8245D1FFD0017969C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C7719BB245D1FFD0017969C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C7719BC245D1FFD0017969C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C7719BE245D1FFD0017969C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BFCF7026F74DA7B69E9C921 /* Pods-EthicalIQ.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V2Z6C9KMA;
+				INFOPLIST_FILE = EthicalIQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethicaliq.EthicalIQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C7719BF245D1FFD0017969C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3542E78AFDB8CDE2ABB88705 /* Pods-EthicalIQ.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V2Z6C9KMA;
+				INFOPLIST_FILE = EthicalIQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethicaliq.EthicalIQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C7719A3245D1FFB0017969C /* Build configuration list for PBXProject "EthicalIQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7719BB245D1FFD0017969C /* Debug */,
+				2C7719BC245D1FFD0017969C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C7719BD245D1FFD0017969C /* Build configuration list for PBXNativeTarget "EthicalIQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7719BE245D1FFD0017969C /* Debug */,
+				2C7719BF245D1FFD0017969C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2C7719B2245D1FFB0017969C /* EthicalIQ.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C7719B3245D1FFB0017969C /* EthicalIQ.xcdatamodel */,
+			);
+			currentVersion = 2C7719B3245D1FFB0017969C /* EthicalIQ.xcdatamodel */;
+			path = EthicalIQ.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2C7719A0245D1FFB0017969C /* Project object */;
+}

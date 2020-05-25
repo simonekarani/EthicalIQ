@@ -1,0 +1,6 @@
+framework module Pods_EthicalIQ {
+  umbrella header "Pods-EthicalIQ-umbrella.h"
+
+  export *
+  module * { export * }
+}
